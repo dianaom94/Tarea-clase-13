@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario-tarea</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap" rel="stylesheet">
+    <script src="./JS/formulario.js"></script>
+</head>
+<body>
+    <img class="onda" src="./Galeria/arriba.png" alt="onda">
+    <div class="main-container">
+        <div class="contenedor">
+        
+            <form class="contenedor-formulario">
+                <h1 class="titulo">Registro de usuario</h1>
+                <div class="nomb">
+                    <p id="error1" class="error"></p>
+                    <input type="text" placeholder="Ingresa tu nombre" name="Nombre" id="nombre">
+                </div>
+                <div class="box-1">
+                    <input type="text" placeholder="Apellido materno" id="apellido">
+                    <input type="text" placeholder="Apellido paterno" id="apellido-p">
+                </div>
+
+                <div class="box-2">
+                    <input type="email" placeholder="Email" id="email">
+                    <input type="number" placeholder="Teléfono" id="telefono">
+                </div>
+
+                <div class="direccion">    
+                    <input type="text" placeholder="Dirección" id="direccion">
+                </div>
+                <div class="box-3">
+                    <h2 class="terminos">Términos y condiciones</h2>
+                    <h2 class="politicas">Políticas de privacidad</h2>
+                </div>
+
+                <button type="button" id="enviar" onclick="envioFormulario()">Enviar</button>
+            </form>
+        </div>
+    </div>
+    <img class="onda-1"src="./Galeria/abajo.png" alt="wave">
+</body>
+</html>

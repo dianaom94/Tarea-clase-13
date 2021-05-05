@@ -1,0 +1,152 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+    
+}
+
+.onda{
+    max-width: 100%;
+    height: 200px;
+    width: 100%;
+
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Galeria/flor.jpg);
+    background-size: cover;
+    width: 600px;
+    height: 500px;
+    
+    
+}
+
+.contenedor-formulario{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.535);
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 80%;
+    height: 80%;
+    padding-bottom: 20px;
+}
+.contenedor-formulario .titulo{
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    font-weight: 50px;
+}
+
+.nomb{
+    justify-content: center;
+    align-items: center;
+    width:90%;
+    margin-right: 5px;
+
+    
+}
+
+#nombre{
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 25px;
+}
+
+.box-1{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-top: 10px;
+    
+}
+
+#apellido, #apellido-p {
+    height: 25px;
+
+}
+
+
+.box-2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-top: 10px;
+}
+
+#email, #telefono{
+    height: 25px;
+}
+
+.direccion{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#direccion{
+    margin-top: 10px;
+    width: 90%;
+    height: 70px;
+}
+
+.box-3{
+    display: flex;
+    font-size: 10px;
+    width: 100%;
+    justify-content: center
+}
+
+.terminos{
+    margin-right: 90px;
+}
+
+#enviar{
+    margin-top: 20px;
+    width: 50%;
+    height: 50px;
+    font-family: 'Spartan', sans-serif;
+    background-color: rgb(186, 116, 252);
+    border-radius: 10px;
+
+    
+}
+
+#enviar:hover{
+    transition: ease-in;
+    background-color: rgb(204, 109, 204);
+    border-radius: 10px;
+    color: white;
+    
+    
+}
+
+.error{
+    color: red;
+    font-size: 18px;
+}
+
+.invisible{
+    display: none;
+}
+
+.aviso{
+    border: solid red 2px;
+}
+
+.onda-1{
+    max-width: 100%;
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    
+}
